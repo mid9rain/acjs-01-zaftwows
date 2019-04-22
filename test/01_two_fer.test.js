@@ -2,6 +2,7 @@
 let {twoFer} = require('../01_two_fer.js')
 
 test('Bob', () => {
+  console.log(twoFer());
   expect(twoFer('Bob')).toEqual('One for Bob, one for me')
 })
 

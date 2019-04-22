@@ -8,6 +8,25 @@
 
 function fizzBuzz(input) {
   // 把你的解答寫在這裡。要記得 return 喔。
+  
+  var number = ""
+  for (var i = 1 ; i <= input; i++){
+    if(!(i%15)){
+      number+='FizzBuzz';
+    }else if (!(i%3)){
+      number+='Fizz';
+    }else if (!(i%5)){
+      number+='Buzz';
+    }else{
+      number+=i;
+    }
+    if(i < input){
+      number += ' ';
+    }
+    
+  }
+  console.log(number)
+  return number;
 }
 
 module.exports = {fizzBuzz};
