@@ -4,5 +4,5 @@
 function twoFer() {
   // 把你的解答寫在這裡。要記得 return 喔。
 }
-
+klhlkhl
 module.exports = {twoFer};
